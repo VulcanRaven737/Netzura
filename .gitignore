@@ -1,7 +1,3 @@
 __pycache__/
 without_cache/
-load_balancer.log
-server1.log
-server2.log
-server3.log
-server4.log
+*.log
