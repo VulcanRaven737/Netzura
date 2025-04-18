@@ -1,7 +1,6 @@
 # Netzura
 
-A simple load balancer simulator with Redis caching.  
-Netzura efficiently distributes requests across multiple backend servers while leveraging Redis to cache responses and reduce backend load.
+A simple load balancer simulator with Redis caching. Netzura efficiently distributes requests across multiple backend servers while leveraging Redis to cache responses and reduce backend load.
 
 ## Installation
 
