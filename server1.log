@@ -1,0 +1,668 @@
+2025-04-16 22:47:27,706 - backend_server - INFO - Starting backend server 1 on port 8081
+ * Serving Flask app 'backend_server'
+ * Debug mode: off
+2025-04-16 22:47:27,708 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8081
+ * Running on http://192.168.1.7:8081
+2025-04-16 22:47:27,708 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 22:47:30,568 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:30] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:47:30,752 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:30] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:47:30,753 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:30] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:47:33,746 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:47:33,747 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:33] "GET / HTTP/1.1" 200 -
+2025-04-16 22:47:40,772 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:40] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:47:50,791 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:50] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:47:56,761 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:47:56,761 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:56] "GET /?q=778 HTTP/1.1" 200 -
+2025-04-16 22:47:57,703 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:47:57,704 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:57] "GET /?q=312 HTTP/1.1" 200 -
+2025-04-16 22:47:58,201 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:58] "GET /time HTTP/1.1" 200 -
+2025-04-16 22:47:58,650 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:47:58,651 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:58] "GET /?q=943 HTTP/1.1" 200 -
+2025-04-16 22:47:58,716 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:47:58,717 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:58] "GET /?q=138 HTTP/1.1" 200 -
+2025-04-16 22:47:59,723 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:47:59,724 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:59] "GET /?q=195 HTTP/1.1" 200 -
+2025-04-16 22:47:59,951 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:47:59,951 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:47:59] "GET /?q=388 HTTP/1.1" 200 -
+2025-04-16 22:48:00,534 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:00,535 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:00] "GET /?q=933 HTTP/1.1" 200 -
+2025-04-16 22:48:00,786 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:00,787 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:00] "GET /?q=267 HTTP/1.1" 200 -
+2025-04-16 22:48:00,819 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:00] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:48:01,071 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:01,072 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:01] "GET /?q=146 HTTP/1.1" 200 -
+2025-04-16 22:48:01,370 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:01,371 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:01] "GET /?q=762 HTTP/1.1" 200 -
+2025-04-16 22:48:01,694 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:01,694 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:01] "GET /?q=639 HTTP/1.1" 200 -
+2025-04-16 22:48:02,354 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:02,355 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:02] "GET /?q=612 HTTP/1.1" 200 -
+2025-04-16 22:48:02,496 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:02,497 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:02] "GET /?q=463 HTTP/1.1" 200 -
+2025-04-16 22:48:02,781 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:02,782 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:02] "GET /?q=155 HTTP/1.1" 200 -
+2025-04-16 22:48:02,852 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:02,852 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:02] "GET /?q=307 HTTP/1.1" 200 -
+2025-04-16 22:48:03,027 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:03,027 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:03] "GET /?q=747 HTTP/1.1" 200 -
+2025-04-16 22:48:03,381 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:03,381 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:03] "GET /?q=616 HTTP/1.1" 200 -
+2025-04-16 22:48:03,704 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:03,704 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:03] "GET /?q=553 HTTP/1.1" 200 -
+2025-04-16 22:48:03,734 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:03,734 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:03] "GET /?q=717 HTTP/1.1" 200 -
+2025-04-16 22:48:03,885 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:03,885 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:03] "GET /?q=279 HTTP/1.1" 200 -
+2025-04-16 22:48:04,167 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:04,168 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:04] "GET /?q=275 HTTP/1.1" 200 -
+2025-04-16 22:48:04,431 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:04,432 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:04] "GET /?q=170 HTTP/1.1" 200 -
+2025-04-16 22:48:04,633 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:04,634 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:04] "GET /?q=749 HTTP/1.1" 200 -
+2025-04-16 22:48:04,852 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:04,852 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:04] "GET /?q=622 HTTP/1.1" 200 -
+2025-04-16 22:48:04,900 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:04,900 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:04] "GET /?q=894 HTTP/1.1" 200 -
+2025-04-16 22:48:05,053 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:05,053 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:05] "GET /?q=109 HTTP/1.1" 200 -
+2025-04-16 22:48:05,291 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:05,292 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:05] "GET /?q=819 HTTP/1.1" 200 -
+2025-04-16 22:48:05,520 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:05,520 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:05] "GET /?q=543 HTTP/1.1" 200 -
+2025-04-16 22:48:05,816 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:05,817 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:05] "GET /?q=322 HTTP/1.1" 200 -
+2025-04-16 22:48:06,003 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:06,003 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:06] "GET /?q=240 HTTP/1.1" 200 -
+2025-04-16 22:48:06,174 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:06,175 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:06] "GET /?q=22 HTTP/1.1" 200 -
+2025-04-16 22:48:06,227 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:06,227 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:06] "GET /?q=811 HTTP/1.1" 200 -
+2025-04-16 22:48:06,592 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:06,593 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:06] "GET /?q=354 HTTP/1.1" 200 -
+2025-04-16 22:48:06,719 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:06,720 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:06] "GET /?q=358 HTTP/1.1" 200 -
+2025-04-16 22:48:06,913 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:06,914 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:06] "GET /?q=392 HTTP/1.1" 200 -
+2025-04-16 22:48:07,185 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:07,185 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:07] "GET /?q=190 HTTP/1.1" 200 -
+2025-04-16 22:48:07,203 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:07,203 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:07] "GET /?q=369 HTTP/1.1" 200 -
+2025-04-16 22:48:07,735 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:07,736 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:07] "GET /?q=936 HTTP/1.1" 200 -
+2025-04-16 22:48:07,908 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:07,909 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:07] "GET /?q=316 HTTP/1.1" 200 -
+2025-04-16 22:48:08,234 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:08,234 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:08] "GET /?q=119 HTTP/1.1" 200 -
+2025-04-16 22:48:08,381 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:08,382 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:08] "GET /?q=743 HTTP/1.1" 200 -
+2025-04-16 22:48:08,633 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:08,634 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:08] "GET /?q=737 HTTP/1.1" 200 -
+2025-04-16 22:48:08,863 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:08,864 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:08] "GET /?q=68 HTTP/1.1" 200 -
+2025-04-16 22:48:09,054 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:09,055 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:09] "GET /?q=51 HTTP/1.1" 200 -
+2025-04-16 22:48:09,194 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:09,194 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:09] "GET /?q=577 HTTP/1.1" 200 -
+2025-04-16 22:48:09,647 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:09,647 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:09] "GET /?q=133 HTTP/1.1" 200 -
+2025-04-16 22:48:09,676 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:09,677 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:09] "GET /?q=139 HTTP/1.1" 200 -
+2025-04-16 22:48:09,813 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:09,813 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:09] "GET /?q=149 HTTP/1.1" 200 -
+2025-04-16 22:48:10,280 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:10,280 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:10] "GET /?q=876 HTTP/1.1" 200 -
+2025-04-16 22:48:10,495 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:10,496 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:10] "GET /?q=47 HTTP/1.1" 200 -
+2025-04-16 22:48:10,658 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:10,658 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:10] "GET /?q=363 HTTP/1.1" 200 -
+2025-04-16 22:48:10,845 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:10] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:48:11,044 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:11,045 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:11] "GET /?q=698 HTTP/1.1" 200 -
+2025-04-16 22:48:11,095 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:11,096 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:11] "GET /?q=219 HTTP/1.1" 200 -
+2025-04-16 22:48:11,542 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:11,543 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:11] "GET /?q=840 HTTP/1.1" 200 -
+2025-04-16 22:48:11,787 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:11,788 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:11] "GET /?q=184 HTTP/1.1" 200 -
+2025-04-16 22:48:12,083 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:12,084 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:12] "GET /?q=303 HTTP/1.1" 200 -
+2025-04-16 22:48:12,263 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:12,263 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:12] "GET /?q=766 HTTP/1.1" 200 -
+2025-04-16 22:48:12,631 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:12,632 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:12] "GET /?q=129 HTTP/1.1" 200 -
+2025-04-16 22:48:12,948 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:12,948 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:12] "GET /?q=635 HTTP/1.1" 200 -
+2025-04-16 22:48:13,317 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:13,317 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:13] "GET /?q=284 HTTP/1.1" 200 -
+2025-04-16 22:48:13,525 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:13,525 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:13] "GET /?q=851 HTTP/1.1" 200 -
+2025-04-16 22:48:13,670 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:13,671 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:13] "GET /?q=391 HTTP/1.1" 200 -
+2025-04-16 22:48:14,130 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:14,130 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:14] "GET /?q=499 HTTP/1.1" 200 -
+2025-04-16 22:48:14,538 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:14,539 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:14] "GET /?q=414 HTTP/1.1" 200 -
+2025-04-16 22:48:14,747 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:14,747 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:14] "GET /?q=673 HTTP/1.1" 200 -
+2025-04-16 22:48:15,250 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:15,251 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:15] "GET /?q=217 HTTP/1.1" 200 -
+2025-04-16 22:48:15,391 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:15,392 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:15] "GET /?q=375 HTTP/1.1" 200 -
+2025-04-16 22:48:15,715 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:15,715 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:15] "GET /?q=78 HTTP/1.1" 200 -
+2025-04-16 22:48:16,116 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:16,117 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:16] "GET /?q=970 HTTP/1.1" 200 -
+2025-04-16 22:48:16,463 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:16,464 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:16] "GET /?q=879 HTTP/1.1" 200 -
+2025-04-16 22:48:16,483 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:16,483 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:16] "GET /?q=700 HTTP/1.1" 200 -
+2025-04-16 22:48:16,914 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:16,915 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:16] "GET /?q=934 HTTP/1.1" 200 -
+2025-04-16 22:48:17,160 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:17,160 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:17] "GET /?q=250 HTTP/1.1" 200 -
+2025-04-16 22:48:17,463 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:17,463 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:17] "GET /?q=902 HTTP/1.1" 200 -
+2025-04-16 22:48:17,855 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:17,855 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:17] "GET /?q=40 HTTP/1.1" 200 -
+2025-04-16 22:48:17,911 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:17,912 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:17] "GET /?q=619 HTTP/1.1" 200 -
+2025-04-16 22:48:18,208 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:18,209 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:18] "GET /?q=147 HTTP/1.1" 200 -
+2025-04-16 22:48:18,434 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:18,435 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:18] "GET /?q=445 HTTP/1.1" 200 -
+2025-04-16 22:48:18,541 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:18,541 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:18] "GET /?q=636 HTTP/1.1" 200 -
+2025-04-16 22:48:18,916 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:18,917 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:18] "GET /?q=632 HTTP/1.1" 200 -
+2025-04-16 22:48:19,058 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:19,058 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:19] "GET /?q=310 HTTP/1.1" 200 -
+2025-04-16 22:48:19,367 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:19,368 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:19] "GET /?q=244 HTTP/1.1" 200 -
+2025-04-16 22:48:19,528 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:19,529 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:19] "GET /?q=353 HTTP/1.1" 200 -
+2025-04-16 22:48:19,803 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:19,803 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:19] "GET /?q=112 HTTP/1.1" 200 -
+2025-04-16 22:48:20,068 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:20,068 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:20] "GET /?q=922 HTTP/1.1" 200 -
+2025-04-16 22:48:20,156 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:20,157 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:20] "GET /?q=953 HTTP/1.1" 200 -
+2025-04-16 22:48:20,253 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:20,254 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:20] "GET /?q=496 HTTP/1.1" 200 -
+2025-04-16 22:48:20,510 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:20,511 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:20] "GET /?q=535 HTTP/1.1" 200 -
+2025-04-16 22:48:20,806 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:20,806 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:20] "GET /?q=537 HTTP/1.1" 200 -
+2025-04-16 22:48:20,863 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:20] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:48:21,182 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:21,183 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:21] "GET /?q=252 HTTP/1.1" 200 -
+2025-04-16 22:48:21,388 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:21,389 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:21] "GET /?q=680 HTTP/1.1" 200 -
+2025-04-16 22:48:21,796 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:21,797 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:21] "GET /?q=394 HTTP/1.1" 200 -
+2025-04-16 22:48:21,945 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:21,946 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:21] "GET /?q=969 HTTP/1.1" 200 -
+2025-04-16 22:48:22,268 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:22,269 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:22] "GET /?q=738 HTTP/1.1" 200 -
+2025-04-16 22:48:22,842 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:22,843 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:22] "GET /?q=300 HTTP/1.1" 200 -
+2025-04-16 22:48:23,232 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:23,232 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:23] "GET /?q=667 HTTP/1.1" 200 -
+2025-04-16 22:48:23,567 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:23,568 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:23] "GET /?q=838 HTTP/1.1" 200 -
+2025-04-16 22:48:24,008 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:24,009 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:24] "GET /?q=711 HTTP/1.1" 200 -
+2025-04-16 22:48:24,218 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:24,219 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:24] "GET /?q=596 HTTP/1.1" 200 -
+2025-04-16 22:48:24,491 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:24,492 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:24] "GET /?q=406 HTTP/1.1" 200 -
+2025-04-16 22:48:24,578 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:24,578 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:24] "GET /?q=385 HTTP/1.1" 200 -
+2025-04-16 22:48:24,999 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:25,000 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:25] "GET /?q=482 HTTP/1.1" 200 -
+2025-04-16 22:48:25,356 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:25,357 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:25] "GET /?q=83 HTTP/1.1" 200 -
+2025-04-16 22:48:25,655 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:25,656 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:25] "GET /?q=930 HTTP/1.1" 200 -
+2025-04-16 22:48:25,835 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:25,835 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:25] "GET /?q=158 HTTP/1.1" 200 -
+2025-04-16 22:48:26,291 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:26,292 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:26] "GET /?q=599 HTTP/1.1" 200 -
+2025-04-16 22:48:26,359 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:26,360 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:26] "GET /?q=495 HTTP/1.1" 200 -
+2025-04-16 22:48:26,434 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:26,434 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:26] "GET /?q=716 HTTP/1.1" 200 -
+2025-04-16 22:48:26,770 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:26,771 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:26] "GET /?q=213 HTTP/1.1" 200 -
+2025-04-16 22:48:27,070 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:27,071 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:27] "GET /?q=143 HTTP/1.1" 200 -
+2025-04-16 22:48:27,482 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:27,483 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:27] "GET /?q=695 HTTP/1.1" 200 -
+2025-04-16 22:48:27,717 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:27,718 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:27] "GET /?q=547 HTTP/1.1" 200 -
+2025-04-16 22:48:28,093 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:28,094 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:28] "GET /?q=551 HTTP/1.1" 200 -
+2025-04-16 22:48:28,396 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:28,396 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:28] "GET /?q=971 HTTP/1.1" 200 -
+2025-04-16 22:48:28,993 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:28,994 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:28] "GET /?q=534 HTTP/1.1" 200 -
+2025-04-16 22:48:29,342 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:29,343 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:29] "GET /?q=485 HTTP/1.1" 200 -
+2025-04-16 22:48:29,873 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:29,874 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:29] "GET /?q=714 HTTP/1.1" 200 -
+2025-04-16 22:48:30,534 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:30,535 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:30] "GET /?q=442 HTTP/1.1" 200 -
+2025-04-16 22:48:30,722 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:30,723 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:30] "GET /?q=361 HTTP/1.1" 200 -
+2025-04-16 22:48:30,888 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:30] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:48:31,123 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:31,124 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:31] "GET /?q=1000 HTTP/1.1" 200 -
+2025-04-16 22:48:31,169 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:31,169 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:31] "GET /?q=724 HTTP/1.1" 200 -
+2025-04-16 22:48:31,651 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:31,652 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:31] "GET /?q=613 HTTP/1.1" 200 -
+2025-04-16 22:48:31,947 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:31,948 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:31] "GET /?q=671 HTTP/1.1" 200 -
+2025-04-16 22:48:32,403 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:32,404 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:32] "GET /?q=912 HTTP/1.1" 200 -
+2025-04-16 22:48:32,509 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:32,510 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:32] "GET /?q=637 HTTP/1.1" 200 -
+2025-04-16 22:48:32,808 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:32,808 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:32] "GET /?q=559 HTTP/1.1" 200 -
+2025-04-16 22:48:33,184 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:33,185 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:33] "GET /?q=476 HTTP/1.1" 200 -
+2025-04-16 22:48:33,328 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:33,328 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:33] "GET /?q=367 HTTP/1.1" 200 -
+2025-04-16 22:48:33,776 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:33,777 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:33] "GET /?q=145 HTTP/1.1" 200 -
+2025-04-16 22:48:33,968 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:33,969 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:33] "GET /?q=944 HTTP/1.1" 200 -
+2025-04-16 22:48:34,323 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:34,323 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:34] "GET /?q=289 HTTP/1.1" 200 -
+2025-04-16 22:48:34,603 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:34,603 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:34] "GET /?q=9 HTTP/1.1" 200 -
+2025-04-16 22:48:34,878 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:34,879 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:34] "GET /?q=924 HTTP/1.1" 200 -
+2025-04-16 22:48:35,239 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:35,240 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:35] "GET /?q=273 HTTP/1.1" 200 -
+2025-04-16 22:48:35,733 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:35,734 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:35] "GET /?q=661 HTTP/1.1" 200 -
+2025-04-16 22:48:36,256 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:36,257 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:36] "GET /?q=752 HTTP/1.1" 200 -
+2025-04-16 22:48:36,678 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:36,678 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:36] "GET /?q=818 HTTP/1.1" 200 -
+2025-04-16 22:48:36,861 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:36,861 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:36] "GET /?q=833 HTTP/1.1" 200 -
+2025-04-16 22:48:37,162 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:37,163 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:37] "GET /?q=229 HTTP/1.1" 200 -
+2025-04-16 22:48:37,168 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:37,169 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:37] "GET /?q=662 HTTP/1.1" 200 -
+2025-04-16 22:48:37,439 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:37,440 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:37] "GET /?q=178 HTTP/1.1" 200 -
+2025-04-16 22:48:37,972 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:37,973 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:37] "GET /?q=206 HTTP/1.1" 200 -
+2025-04-16 22:48:38,736 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:38,736 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:38] "GET /?q=663 HTTP/1.1" 200 -
+2025-04-16 22:48:39,084 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:39,085 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:39] "GET /?q=61 HTTP/1.1" 200 -
+2025-04-16 22:48:39,523 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:39,524 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:39] "GET /?q=639 HTTP/1.1" 200 -
+2025-04-16 22:48:39,639 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:39,640 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:39] "GET /?q=932 HTTP/1.1" 200 -
+2025-04-16 22:48:39,932 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:39,933 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:39] "GET /?q=696 HTTP/1.1" 200 -
+2025-04-16 22:48:40,032 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:40,032 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:40] "GET /?q=236 HTTP/1.1" 200 -
+2025-04-16 22:48:40,520 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:40,521 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:40] "GET /?q=549 HTTP/1.1" 200 -
+2025-04-16 22:48:40,694 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:40,694 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:40] "GET /?q=603 HTTP/1.1" 200 -
+2025-04-16 22:48:40,881 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:40,881 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:40] "GET /?q=253 HTTP/1.1" 200 -
+2025-04-16 22:48:40,905 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:40] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:48:41,283 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:41,283 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:41] "GET /?q=344 HTTP/1.1" 200 -
+2025-04-16 22:48:41,915 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:41,915 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:41] "GET /?q=42 HTTP/1.1" 200 -
+2025-04-16 22:48:42,004 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:42,004 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:42] "GET /?q=608 HTTP/1.1" 200 -
+2025-04-16 22:48:42,341 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:42,342 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:42] "GET /?q=963 HTTP/1.1" 200 -
+2025-04-16 22:48:42,504 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:42,504 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:42] "GET /?q=649 HTTP/1.1" 200 -
+2025-04-16 22:48:43,146 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:43,147 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:43] "GET /?q=75 HTTP/1.1" 200 -
+2025-04-16 22:48:43,400 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:43,401 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:43] "GET /?q=478 HTTP/1.1" 200 -
+2025-04-16 22:48:43,714 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:43,715 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:43] "GET /?q=356 HTTP/1.1" 200 -
+2025-04-16 22:48:43,976 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:43,977 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:43] "GET /?q=270 HTTP/1.1" 200 -
+2025-04-16 22:48:44,041 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:44,042 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:44] "GET /?q=768 HTTP/1.1" 200 -
+2025-04-16 22:48:44,589 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:44,589 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:44] "GET /?q=444 HTTP/1.1" 200 -
+2025-04-16 22:48:44,731 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:44,732 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:44] "GET /?q=701 HTTP/1.1" 200 -
+2025-04-16 22:48:44,919 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:44,919 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:44] "GET /?q=283 HTTP/1.1" 200 -
+2025-04-16 22:48:45,234 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:45,235 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:45] "GET /?q=616 HTTP/1.1" 200 -
+2025-04-16 22:48:45,629 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:45,630 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:45] "GET /?q=985 HTTP/1.1" 200 -
+2025-04-16 22:48:46,059 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:46,060 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:46] "GET /?q=429 HTTP/1.1" 200 -
+2025-04-16 22:48:46,116 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:46,117 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:46] "GET /?q=996 HTTP/1.1" 200 -
+2025-04-16 22:48:46,348 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:46,350 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:46] "GET /?q=647 HTTP/1.1" 200 -
+2025-04-16 22:48:46,654 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:46,655 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:46] "GET /?q=866 HTTP/1.1" 200 -
+2025-04-16 22:48:47,007 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:47,008 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:47] "GET /?q=852 HTTP/1.1" 200 -
+2025-04-16 22:48:47,343 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:47,343 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:47] "GET /?q=815 HTTP/1.1" 200 -
+2025-04-16 22:48:47,611 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:47,612 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:47] "GET /?q=111 HTTP/1.1" 200 -
+2025-04-16 22:48:47,749 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:47,750 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:47] "GET /?q=986 HTTP/1.1" 200 -
+2025-04-16 22:48:48,454 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:48,455 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:48] "GET /?q=354 HTTP/1.1" 200 -
+2025-04-16 22:48:48,673 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:48,674 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:48] "GET /?q=583 HTTP/1.1" 200 -
+2025-04-16 22:48:48,780 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:48,781 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:48] "GET /?q=297 HTTP/1.1" 200 -
+2025-04-16 22:48:49,079 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:49,080 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:49] "GET /?q=165 HTTP/1.1" 200 -
+2025-04-16 22:48:49,547 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:49,548 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:49] "GET /?q=595 HTTP/1.1" 200 -
+2025-04-16 22:48:49,765 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:49,766 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:49] "GET /?q=735 HTTP/1.1" 200 -
+2025-04-16 22:48:50,240 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:50,241 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:50] "GET /?q=6 HTTP/1.1" 200 -
+2025-04-16 22:48:50,334 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:50,335 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:50] "GET /?q=313 HTTP/1.1" 200 -
+2025-04-16 22:48:50,615 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:50,616 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:50] "GET /?q=607 HTTP/1.1" 200 -
+2025-04-16 22:48:50,666 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:50,667 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:50] "GET /?q=401 HTTP/1.1" 200 -
+2025-04-16 22:48:50,851 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:50,852 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:50] "GET /?q=796 HTTP/1.1" 200 -
+2025-04-16 22:48:50,927 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:50] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:48:50,961 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:50,962 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:50] "GET /?q=505 HTTP/1.1" 200 -
+2025-04-16 22:48:51,345 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:51,346 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:51] "GET /?q=977 HTTP/1.1" 200 -
+2025-04-16 22:48:51,819 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:51,820 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:51] "GET /?q=45 HTTP/1.1" 200 -
+2025-04-16 22:48:52,222 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:52,223 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:52] "GET /?q=810 HTTP/1.1" 200 -
+2025-04-16 22:48:52,361 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:52,361 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:52] "GET /?q=804 HTTP/1.1" 200 -
+2025-04-16 22:48:52,685 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:52,686 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:52] "GET /?q=202 HTTP/1.1" 200 -
+2025-04-16 22:48:52,765 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:52,765 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:52] "GET /?q=704 HTTP/1.1" 200 -
+2025-04-16 22:48:53,410 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:53,411 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:53] "GET /?q=167 HTTP/1.1" 200 -
+2025-04-16 22:48:53,531 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:53,531 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:53] "GET /?q=798 HTTP/1.1" 200 -
+2025-04-16 22:48:54,078 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:54,079 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:54] "GET /?q=214 HTTP/1.1" 200 -
+2025-04-16 22:48:54,456 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:54,456 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:54] "GET /?q=82 HTTP/1.1" 200 -
+2025-04-16 22:48:54,474 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:54,474 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:54] "GET /?q=244 HTTP/1.1" 200 -
+2025-04-16 22:48:54,774 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:54,775 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:54] "GET /?q=706 HTTP/1.1" 200 -
+2025-04-16 22:48:55,086 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:55,087 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:55] "GET /?q=693 HTTP/1.1" 200 -
+2025-04-16 22:48:55,162 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:55,163 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:55] "GET /?q=370 HTTP/1.1" 200 -
+2025-04-16 22:48:55,458 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:55,459 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:55] "GET /?q=320 HTTP/1.1" 200 -
+2025-04-16 22:48:55,617 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:55,629 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:55] "GET /?q=920 HTTP/1.1" 200 -
+2025-04-16 22:48:55,962 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:55,962 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:55] "GET /?q=24 HTTP/1.1" 200 -
+2025-04-16 22:48:56,133 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:56,134 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:56] "GET /?q=180 HTTP/1.1" 200 -
+2025-04-16 22:48:56,630 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:56,630 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:56] "GET /?q=922 HTTP/1.1" 200 -
+2025-04-16 22:48:56,838 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:56,838 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:56] "GET /?q=326 HTTP/1.1" 200 -
+2025-04-16 22:48:57,039 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:57,039 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:57] "GET /?q=642 HTTP/1.1" 200 -
+2025-04-16 22:48:57,268 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:57,268 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:57] "GET /?q=870 HTTP/1.1" 200 -
+2025-04-16 22:48:57,672 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:57,672 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:57] "GET /?q=524 HTTP/1.1" 200 -
+2025-04-16 22:48:58,298 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:58,299 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:58] "GET /?q=939 HTTP/1.1" 200 -
+2025-04-16 22:48:58,818 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:58,819 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:58] "GET /?q=655 HTTP/1.1" 200 -
+2025-04-16 22:48:58,930 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:58,931 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:58] "GET /?q=896 HTTP/1.1" 200 -
+2025-04-16 22:48:59,016 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:59,016 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:59] "GET /?q=536 HTTP/1.1" 200 -
+2025-04-16 22:48:59,063 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:59,064 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:59] "GET /?q=488 HTTP/1.1" 200 -
+2025-04-16 22:48:59,252 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:59,252 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:59] "GET /?q=534 HTTP/1.1" 200 -
+2025-04-16 22:48:59,400 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:59,400 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:59] "GET /?q=915 HTTP/1.1" 200 -
+2025-04-16 22:48:59,739 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:48:59,740 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:48:59] "GET /?q=311 HTTP/1.1" 200 -
+2025-04-16 22:49:00,009 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:00,010 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:00] "GET /?q=233 HTTP/1.1" 200 -
+2025-04-16 22:49:00,593 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:00,594 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:00] "GET /?q=396 HTTP/1.1" 200 -
+2025-04-16 22:49:00,750 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:00,750 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:00] "GET /?q=648 HTTP/1.1" 200 -
+2025-04-16 22:49:00,945 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:00] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:49:01,065 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:01,066 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:01] "GET /?q=953 HTTP/1.1" 200 -
+2025-04-16 22:49:01,247 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:01,247 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:01] "GET /?q=359 HTTP/1.1" 200 -
+2025-04-16 22:49:01,642 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:01,642 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:01] "GET /?q=439 HTTP/1.1" 200 -
+2025-04-16 22:49:02,006 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:02,007 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:02] "GET /?q=410 HTTP/1.1" 200 -
+2025-04-16 22:49:02,379 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:02,379 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:02] "GET /?q=263 HTTP/1.1" 200 -
+2025-04-16 22:49:02,516 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:02,516 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:02] "GET /?q=181 HTTP/1.1" 200 -
+2025-04-16 22:49:02,803 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:02,804 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:02] "GET /?q=675 HTTP/1.1" 200 -
+2025-04-16 22:49:03,163 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:03,163 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:03] "GET /?q=23 HTTP/1.1" 200 -
+2025-04-16 22:49:03,327 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:03,328 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:03] "GET /?q=113 HTTP/1.1" 200 -
+2025-04-16 22:49:03,609 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:03,610 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:03] "GET /?q=917 HTTP/1.1" 200 -
+2025-04-16 22:49:03,981 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:03,982 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:03] "GET /?q=164 HTTP/1.1" 200 -
+2025-04-16 22:49:04,229 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:04,229 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:04] "GET /?q=964 HTTP/1.1" 200 -
+2025-04-16 22:49:04,428 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:04,429 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:04] "GET /?q=67 HTTP/1.1" 200 -
+2025-04-16 22:49:04,850 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:04,850 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:04] "GET /?q=130 HTTP/1.1" 200 -
+2025-04-16 22:49:04,894 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:04,894 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:04] "GET /?q=432 HTTP/1.1" 200 -
+2025-04-16 22:49:05,008 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:05,009 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:05] "GET /?q=56 HTTP/1.1" 200 -
+2025-04-16 22:49:05,441 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:05,442 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:05] "GET /?q=518 HTTP/1.1" 200 -
+2025-04-16 22:49:05,670 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:05,670 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:05] "GET /?q=451 HTTP/1.1" 200 -
+2025-04-16 22:49:05,928 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:05,928 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:05] "GET /?q=51 HTTP/1.1" 200 -
+2025-04-16 22:49:06,533 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:06,533 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:06] "GET /?q=651 HTTP/1.1" 200 -
+2025-04-16 22:49:06,753 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:06,754 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:06] "GET /?q=540 HTTP/1.1" 200 -
+2025-04-16 22:49:07,078 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:07,078 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:07] "GET /?q=778 HTTP/1.1" 200 -
+2025-04-16 22:49:07,314 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:07,314 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:07] "GET /?q=512 HTTP/1.1" 200 -
+2025-04-16 22:49:07,750 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:07,751 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:07] "GET /?q=819 HTTP/1.1" 200 -
+2025-04-16 22:49:08,346 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:08,347 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:08] "GET /?q=525 HTTP/1.1" 200 -
+2025-04-16 22:49:08,805 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:08,806 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:08] "GET /?q=909 HTTP/1.1" 200 -
+2025-04-16 22:49:09,210 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:09,210 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:09] "GET /?q=925 HTTP/1.1" 200 -
+2025-04-16 22:49:09,548 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:09,549 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:09] "GET /?q=231 HTTP/1.1" 200 -
+2025-04-16 22:49:10,001 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:10,002 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:10] "GET /?q=464 HTTP/1.1" 200 -
+2025-04-16 22:49:10,237 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:10,238 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:10] "GET /?q=332 HTTP/1.1" 200 -
+2025-04-16 22:49:10,695 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:10,696 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:10] "GET /?q=198 HTTP/1.1" 200 -
+2025-04-16 22:49:10,966 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:10] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:49:11,239 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:11,240 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:11] "GET /?q=109 HTTP/1.1" 200 -
+2025-04-16 22:49:11,689 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:11,689 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:11] "GET /?q=438 HTTP/1.1" 200 -
+2025-04-16 22:49:12,315 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:12,316 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:12] "GET /?q=238 HTTP/1.1" 200 -
+2025-04-16 22:49:12,422 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:12,423 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:12] "GET /?q=94 HTTP/1.1" 200 -
+2025-04-16 22:49:12,735 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:12,736 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:12] "GET /?q=290 HTTP/1.1" 200 -
+2025-04-16 22:49:13,118 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:13,118 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:13] "GET /?q=973 HTTP/1.1" 200 -
+2025-04-16 22:49:13,671 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:13,672 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:13] "GET /?q=714 HTTP/1.1" 200 -
+2025-04-16 22:49:13,764 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:13,765 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:13] "GET /?q=547 HTTP/1.1" 200 -
+2025-04-16 22:49:14,169 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:14,169 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:14] "GET /?q=499 HTTP/1.1" 200 -
+2025-04-16 22:49:14,627 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:14,628 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:14] "GET /?q=725 HTTP/1.1" 200 -
+2025-04-16 22:49:15,050 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:15,051 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:15] "GET /?q=830 HTTP/1.1" 200 -
+2025-04-16 22:49:15,075 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:15,075 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:15] "GET /?q=384 HTTP/1.1" 200 -
+2025-04-16 22:49:15,139 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:15,140 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:15] "GET /?q=751 HTTP/1.1" 200 -
+2025-04-16 22:49:15,684 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:15,684 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:15] "GET /?q=434 HTTP/1.1" 200 -
+2025-04-16 22:49:15,970 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:15,971 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:15] "GET /?q=61 HTTP/1.1" 200 -
+2025-04-16 22:49:16,203 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:16,203 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:16] "GET /?q=1000 HTTP/1.1" 200 -
+2025-04-16 22:49:16,570 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:16,571 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:16] "GET /?q=293 HTTP/1.1" 200 -
+2025-04-16 22:49:17,147 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:17,148 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:17] "GET /?q=833 HTTP/1.1" 200 -
+2025-04-16 22:49:17,441 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:17,441 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:17] "GET /?q=131 HTTP/1.1" 200 -
+2025-04-16 22:49:17,698 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:17,698 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:17] "GET /?q=301 HTTP/1.1" 200 -
+2025-04-16 22:49:18,132 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:18,132 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:18] "GET /?q=958 HTTP/1.1" 200 -
+2025-04-16 22:49:18,370 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:18,371 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:18] "GET /?q=560 HTTP/1.1" 200 -
+2025-04-16 22:49:19,105 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:19,105 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:19] "GET /?q=700 HTTP/1.1" 200 -
+2025-04-16 22:49:19,639 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:19,639 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:19] "GET /?q=763 HTTP/1.1" 200 -
+2025-04-16 22:49:19,990 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:19,990 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:19] "GET /?q=683 HTTP/1.1" 200 -
+2025-04-16 22:49:20,337 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:20,338 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:20] "GET /?q=246 HTTP/1.1" 200 -
+2025-04-16 22:49:20,856 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:20,856 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:20] "GET /?q=220 HTTP/1.1" 200 -
+2025-04-16 22:49:20,998 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:20] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:49:21,130 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:21,131 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:21] "GET /?q=425 HTTP/1.1" 200 -
+2025-04-16 22:49:21,179 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:21,180 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:21] "GET /?q=790 HTTP/1.1" 200 -
+2025-04-16 22:49:21,554 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:21,555 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:21] "GET /?q=103 HTTP/1.1" 200 -
+2025-04-16 22:49:21,586 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:21,587 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:21] "GET /?q=691 HTTP/1.1" 200 -
+2025-04-16 22:49:21,978 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:21,979 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:21] "GET /?q=305 HTTP/1.1" 200 -
+2025-04-16 22:49:22,458 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:22,458 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:22] "GET /?q=260 HTTP/1.1" 200 -
+2025-04-16 22:49:22,826 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:22,826 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:22] "GET /?q=919 HTTP/1.1" 200 -
+2025-04-16 22:49:23,068 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:23,068 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:23] "GET /?q=732 HTTP/1.1" 200 -
+2025-04-16 22:49:23,590 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:23,590 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:23] "GET /?q=954 HTTP/1.1" 200 -
+2025-04-16 22:49:23,682 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:23,682 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:23] "GET /?q=845 HTTP/1.1" 200 -
+2025-04-16 22:49:24,335 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:24,336 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:24] "GET /?q=981 HTTP/1.1" 200 -
+2025-04-16 22:49:24,694 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:24,695 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:24] "GET /?q=96 HTTP/1.1" 200 -
+2025-04-16 22:49:24,702 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:24,703 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:24] "GET /?q=838 HTTP/1.1" 200 -
+2025-04-16 22:49:24,919 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:24,920 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:24] "GET /?q=437 HTTP/1.1" 200 -
+2025-04-16 22:49:25,313 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:25,314 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:25] "GET /?q=171 HTTP/1.1" 200 -
+2025-04-16 22:49:25,732 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:25,733 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:25] "GET /?q=630 HTTP/1.1" 200 -
+2025-04-16 22:49:26,479 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:26,479 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:26] "GET /?q=373 HTTP/1.1" 200 -
+2025-04-16 22:49:26,639 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:26,639 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:26] "GET /?q=443 HTTP/1.1" 200 -
+2025-04-16 22:49:26,944 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:26,944 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:26] "GET /?q=974 HTTP/1.1" 200 -
+2025-04-16 22:49:26,980 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:26,980 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:26] "GET /?q=898 HTTP/1.1" 200 -
+2025-04-16 22:49:27,330 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:27,330 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:27] "GET /?q=265 HTTP/1.1" 200 -
+2025-04-16 22:49:27,519 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:27,520 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:27] "GET /?q=923 HTTP/1.1" 200 -
+2025-04-16 22:49:27,631 - backend_server - INFO - Handled request for / on server 1
+2025-04-16 22:49:27,631 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:27] "GET /?q=172 HTTP/1.1" 200 -
+2025-04-16 22:49:31,031 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:31] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:49:41,075 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:41] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:49:51,103 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:49:51] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:50:01,121 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:50:01] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:50:11,138 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:50:11] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:50:21,155 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:50:21] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:50:31,176 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:50:31] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:50:41,205 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:50:41] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:50:51,222 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:50:51] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:51:01,242 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:51:01] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:51:11,259 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:51:11] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:51:21,284 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:51:21] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:51:31,309 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:51:31] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:51:41,330 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:51:41] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:51:51,359 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:51:51] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:52:01,377 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:52:01] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:52:11,399 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:52:11] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:52:21,432 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:52:21] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:52:31,464 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:52:31] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:52:41,488 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:52:41] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:52:51,505 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:52:51] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:53:01,523 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:53:01] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:53:11,548 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:53:11] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:53:21,571 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:53:21] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:53:31,591 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:53:31] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:53:41,609 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:53:41] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:53:51,627 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:53:51] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:54:01,645 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:54:01] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:54:11,667 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:54:11] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:54:21,700 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:54:21] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:54:31,733 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:54:31] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:54:41,767 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:54:41] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:54:51,797 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:54:51] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:55:01,830 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:55:01] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:55:11,862 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:55:11] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:55:21,895 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:55:21] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:55:31,928 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:55:31] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:55:41,949 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:55:41] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:55:51,969 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:55:51] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:56:01,998 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:56:01] "GET /health HTTP/1.1" 200 -
+2025-04-16 22:56:12,027 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 22:56:12] "GET /health HTTP/1.1" 200 -
